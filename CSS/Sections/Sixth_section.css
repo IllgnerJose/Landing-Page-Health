@@ -1,0 +1,72 @@
+.sixth_section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.sixth_section h2 {
+    grid-column: 1 / 4;
+    text-align: left;
+}
+
+.sixth_section .button {
+    grid-column: 1 / 4;
+}
+
+.sixth_section_card {
+    box-shadow: 0px 0px 10px 1px rgba(142, 142, 142, 0.637);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    height: 100%;
+}
+
+.sixth_section_card .profile {
+    display: flex;
+    gap: 5px;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.sixth_section_card .profile i {
+    font-size: 30px;
+}
+
+.sixth_section_card ul {
+    display: flex;
+    gap: 5px;
+}
+
+.sixth_section_card ul li {
+    color: gold;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .sixth_section {
+        grid-template-columns: auto;
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .sixth_section h2 {
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .sixth_section .button {
+        grid-column: 1;
+    }
+}
+
+
+
+
+

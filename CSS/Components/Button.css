@@ -1,0 +1,42 @@
+.button {
+    background-color: gold;
+    padding-inline: 30px;
+    padding-block: 15px;
+    border-radius: 40px;
+    border: 2px solid black;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button a {
+    z-index: 2;
+    position: relative;
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.button:hover a{
+    color: white;
+}
+
+.button:hover:after {
+    width: 100%;
+}
+
+.button:after {
+    width: 0%;
+    height: 100%;
+    background-color: purple;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.7s;
+}
+

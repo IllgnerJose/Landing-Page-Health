@@ -1,0 +1,15 @@
+
+h1 {
+    font-size: max(5vw, 50px);
+    font-weight: bolder;
+    line-height: 10.6vh;
+}
+
+h2 {
+    font-size: max(2vw, 40px);
+    text-align: center;
+}
+
+p {
+    font-size: max(1vw, 15px);
+}
